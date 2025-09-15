@@ -1,16 +1,47 @@
-## Hi there 👋
+# Hi, I'm Prince Kumar 👋
 
-<!--
-**princekumar-dev/princekumar-dev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Student Developer | Passionate about building impactful software**
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 About Me
+
+- 🎓 Currently a student developer eager to learn and grow in the world of technology.
+- 💡 I love working with **Python, HTML, CSS, React, and Node.js**.
+- 🌟 Always striving to shine through my work and make a difference.
+
+---
+
+## 🔥 Top Skills
+
+- **Languages:** Python, HTML, CSS, JavaScript
+- **Frameworks & Tools:** React, Node.js
+
+---
+
+## 🏆 Favorite Project
+
+- [Smart Classroom & TimeTable Scheduler](https://github.com/princekumar-dev/Smart_Classroom_And_TimeTable_Scheduler)  
+  *An intelligent system to automate classroom and timetable management.*
+
+---
+
+## 🌐 Connect with Me
+
+- [LinkedIn](https://www.linkedin.com/in/prince-r-b9685130b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+- [Instagram](https://www.instagram.com/prince_r_94?igsh=MXA0Ymx1OGwydGZhNw==)
+
+---
+
+## ✨ Fun Fact
+
+- **Goal:** Keep shining and making an impact!
+
+---
+
+> “Passionate about building impactful software.”
+
+---
+
+![Prince's GitHub Stats](https://github-readme-stats.vercel.app/api?username=princekumar-dev&show_icons=true&theme=radical)
+
