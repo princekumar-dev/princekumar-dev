@@ -1,4 +1,4 @@
-# Hi, I'm Prince Kumar 👋
+# Hi, I'm Prince R 👋
 
 **Student Developer | Passionate about building impactful software**
 
