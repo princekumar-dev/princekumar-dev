@@ -43,5 +43,17 @@
 
 ---
 
-![Prince's GitHub Stats](https://github-readme-stats.vercel.app/api?username=princekumar-dev&show_icons=true&theme=radical)
+## 📊 GitHub Stats
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=princekumar-dev&show_icons=true&theme=radical" alt="Prince's GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=princekumar-dev&layout=compact&theme=radical" alt="Top Languages" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=princekumar-dev&theme=radical" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=princekumar-dev&theme=react-dark" alt="Contributions Graph" />
+</p>
