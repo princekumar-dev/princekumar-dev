@@ -6,21 +6,25 @@
 
 # **Prince R**
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=7C3AED&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=Student+Developer;Full-Stack+Engineer;AI+%26+Problem-Solving+Enthusiast;Turning+Ideas+into+Impactful+Products" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=7C3AED&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=Student+Developer;Full-Stack+Engineer;AI+%26+Problem-Solving+Enthusiast;Turning+Ideas+Into+Impact+🚀" alt="Typing SVG" />
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=princekumar-dev&color=7C3AED&style=for-the-badge&label=PROFILE+VIEWS)
-![GitHub followers](https://img.shields.io/github/followers/princekumar-dev?color=7c3aed&style=for-the-badge&label=FOLLOWERS)
-![GitHub stars](https://img.shields.io/github/stars/princekumar-dev?color=fbbf24&style=for-the-badge&label=STARS)
-![Open to work](https://img.shields.io/badge/🟢_OPEN_TO_WORK-00C853?style=for-the-badge&labelColor=000000)
+| | | |
+|---|---|---|
+| ![Profile Views](https://komarev.com/ghpvc/?username=princekumar-dev&color=7C3AED&style=for-the-badge&label=PROFILE+VIEWS) | ![GitHub followers](https://img.shields.io/github/followers/princekumar-dev?color=7c3aed&style=for-the-badge&label=FOLLOWERS) | ![GitHub stars](https://img.shields.io/github/stars/princekumar-dev?color=fbbf24&style=for-the-badge&label=STARS) |
+| ![Open to work](https://img.shields.io/badge/🟢_OPEN_TO_WORK-00C853?style=for-the-badge&labelColor=000000) | | |
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prince-r-b9685130b/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://my-portfolio-077.vercel.app/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:prince55833kumar@gmail.com)
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/princekumar-dev)
+### 🔗 Connect With Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2)](https://www.linkedin.com/in/prince-r-b9685130b/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000)](https://my-portfolio-077.vercel.app/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836)](mailto:prince55833kumar@gmail.com)
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black&labelColor=FFDD00)](https://www.buymeacoffee.com/princekumar-dev)
+[![GitHub Sponsors](https://img.shields.io/badge/GitHub_Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white&labelColor=EA4AAA)](https://github.com/sponsors/princekumar-dev)
 
 </div>
 
