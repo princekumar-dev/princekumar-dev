@@ -1,7 +1,7 @@
 <div align="center">
 
-  <!-- Custom Glow Banner -->
-  <img src="./assets/banner.png" width="100%" alt="Prince R - Banner" />
+  <!-- Premium Royal Crest Illustration -->
+  <img src="./assets/crest.png" width="180" alt="Prince R - Crest" />
   
   <br/><br/>
   
@@ -255,10 +255,10 @@
   <table width="100%">
     <tr>
       <td width="50%" align="center" valign="top">
-        <img src="https://github-readme-stats.vercel.app/api?username=princekumar-dev&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="GitHub Stats" width="100%" />
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=princekumar-dev&theme=dracula" alt="GitHub Stats" width="100%" />
       </td>
       <td width="50%" align="center" valign="top">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=princekumar-dev&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="100%" />
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=princekumar-dev&theme=dracula" alt="Top Languages" width="100%" />
       </td>
     </tr>
   </table>
@@ -268,7 +268,7 @@
   <table width="100%">
     <tr>
       <td width="100%" align="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=princekumar-dev&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="100%" />
+        <img src="https://streak-stats.demolab.com/?user=princekumar-dev&theme=dracula&hide_border=true" alt="GitHub Streak" width="100%" />
       </td>
     </tr>
   </table>
@@ -278,17 +278,7 @@
   <table width="100%">
     <tr>
       <td width="100%" align="center">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=princekumar-dev&theme=tokyonight&hide_border=true" alt="Contributions Graph" width="100%" />
-      </td>
-    </tr>
-  </table>
-
-  <br/>
-
-  <table width="100%">
-    <tr>
-      <td width="100%" align="center">
-        <img src="https://github-profile-trophy.vercel.app/?username=princekumar-dev&theme=tokyonight&no-frame=true&no-bg=true&column=7" alt="GitHub Trophies" width="100%" />
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=princekumar-dev&theme=dracula&hide_border=true" alt="Contributions Graph" width="100%" />
       </td>
     </tr>
   </table>
