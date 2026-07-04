@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" alt="Coding GIF" />
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="280" alt="Coding GIF" />
 
 ### 👋 Hey there, I'm
 
 # **Prince R**
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=7C3AED&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=100&lines=Student+Developer;Full-Stack+Enthusiast" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=7C3AED&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=Student+Developer;Full-Stack+Engineer;AI+%26+Problem-Solving+Enthusiast;Turning+Ideas+into+Impactful+Products" alt="Typing SVG" />
 
 <br/>
 
@@ -18,13 +18,9 @@
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prince-r-b9685130b/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/prince_r_94)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://my-portfolio-077.vercel.app/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:prince55833kumar@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=about-dot-me&logoColor=white)](https://my-portfolio-077.vercel.app/)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/princekumar-dev)
-[![GitHub Sponsors](https://img.shields.io/badge/GitHub_Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/princekumar-dev)
-
-<br/>
 
 </div>
 
@@ -34,28 +30,28 @@
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-🎯 **Current Focus**
+### 🎯 Current Focus
 - 🔭 Building **full-stack web applications**
-- 🌱 Currently learning **System Design & Cloud Architecture**
-- 💡 Exploring **AI/ML** integration in web apps
-- 🎯 Goal: Build impactful products that solve real problems
+- 🌱 Learning **System Design, Cloud Architecture, and AI integration**
+- 💡 Exploring products that solve real problems
+- 🚀 Improving performance, scalability, and UX
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-⚡ **Quick Facts**
-- 🎓 Student developer passionate about **crafting impactful software**
-- 💻 Tech Stack: **Python, JavaScript, TypeScript, React, Node.js, Flask**
-- 🏆 **Hackathon participant** & open-source contributor
+### ⚡ Quick Facts
+- 🎓 Student developer passionate about crafting impactful software
+- 💻 Tech stack: **Python, JavaScript, TypeScript, React, Node.js, Flask**
+- 🏆 Hackathon participant & open-source contributor
 - 📫 Reach me on [LinkedIn](https://www.linkedin.com/in/prince-r-b9685130b/) or [Email](mailto:prince55833kumar@gmail.com)
 
 </td>
 </tr>
 </table>
 
-> 💬 *"Ask me about Web Development, Python Scripting, or anything tech!"*
+> 💬 *Ask me about Web Development, Python Scripting, or building practical tech projects!*
 
 ---
 
@@ -63,38 +59,9 @@
 
 <table>
 <tr>
-<td align="center" width="33%">
-
-🌐 **Full-Stack Apps
-
-</td>
-<td align="center" width="33%">
-
-🤖 **AI-Powered Tools
-
-</td>
-<td align="center" width="33%">
-
-📊 **Data Dashboards
-
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-
-REST APIs & CRUD
-
-</td>
-<td align="center" width="33%">
-
-ML Model Integration
-
-</td>
-<td align="center" width="33%">
-
-Real-Time Analytics
-
-</td>
+<td align="center" width="33%"><strong>🌐 Full-Stack Apps</strong><br/>REST APIs & CRUD</td>
+<td align="center" width="33%"><strong>🤖 AI-Powered Tools</strong><br/>ML model integration</td>
+<td align="center" width="33%"><strong>📊 Data Dashboards</strong><br/>Real-time analytics</td>
 </tr>
 </table>
 
@@ -106,97 +73,53 @@ Real-Time Analytics
 <tr>
 <td align="center" width="96">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48" height="48" alt="Python" />
-<br>
-<strong>Python</strong>
+<br><strong>Python</strong>
 </td>
 <td align="center" width="96">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="48" height="48" alt="JavaScript" />
-<br>
-<strong>JavaScript</strong>
+<br><strong>JavaScript</strong>
 </td>
 <td align="center" width="96">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="48" height="48" alt="TypeScript" />
-<br>
-<strong>TypeScript</strong>
+<br><strong>TypeScript</strong>
 </td>
 <td align="center" width="96">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="48" height="48" alt="Java" />
-<br>
-<strong>Java</strong>
+<br><strong>Java</strong>
 </td>
 <td align="center" width="96">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="48" height="48" alt="HTML5" />
-<br>
-<strong>HTML5</strong>
+<br><strong>HTML5</strong>
 </td>
 <td align="center" width="96">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="48" height="48" alt="CSS3" />
-<br>
-<strong>CSS3</strong>
+<br><strong>CSS3</strong>
 </td>
 </tr>
 <tr>
 <td align="center" width="96">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="48" height="48" alt="React" />
-<br>
-<strong>React</strong>
+<br><strong>React</strong>
 </td>
 <td align="center" width="96">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="48" height="48" alt="Next.js" />
-<br>
-<strong>Next.js</strong>
+<br><strong>Next.js</strong>
 </td>
 <td align="center" width="96">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="48" height="48" alt="Node.js" />
-<br>
-<strong>Node.js</strong>
+<br><strong>Node.js</strong>
 </td>
 <td align="center" width="96">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="48" height="48" alt="Flask" />
-<br>
-<strong>Flask</strong>
+<br><strong>Flask</strong>
 </td>
 <td align="center" width="96">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="48" height="48" alt="Tailwind" />
-<br>
-<strong>Tailwind</strong>
+<br><strong>Tailwind</strong>
 </td>
 <td align="center" width="96">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="48" height="48" alt="MongoDB" />
-<br>
-<strong>MongoDB</strong>
-</td>
-</tr>
-<tr>
-<td align="center" width="96">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="48" height="48" alt="MySQL" />
-<br>
-<strong>MySQL</strong>
-</td>
-<td align="center" width="96">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="48" height="48" alt="Git" />
-<br>
-<strong>Git</strong>
-</td>
-<td align="center" width="96">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="48" height="48" alt="GitHub" />
-<br>
-<strong>GitHub</strong>
-</td>
-<td align="center" width="96">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="48" height="48" alt="VS Code" />
-<br>
-<strong>VS Code</strong>
-</td>
-<td align="center" width="96">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="48" height="48" alt="Linux" />
-<br>
-<strong>Linux</strong>
-</td>
-<td align="center" width="96">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="48" height="48" alt="Figma" />
-<br>
-<strong>Figma</strong>
+<br><strong>MongoDB</strong>
 </td>
 </tr>
 </table>
@@ -234,10 +157,9 @@ Real-Time Analytics
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 📚 Smart Classroom & TimeTable Scheduler
-
 An intelligent system to automate classroom and timetable management using constraint-based optimization.
 
 `TypeScript` `React` `Node.js`
@@ -245,10 +167,9 @@ An intelligent system to automate classroom and timetable management using const
 [![View Project](https://img.shields.io/badge/VIEW_PROJECT-7C3AED?style=for-the-badge)](https://github.com/princekumar-dev/Smart_Classroom_And_TimeTable_Scheduler)
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🚚 LogiPilot AI
-
 AI-powered logistics platform that predicts shipment delays, optimizes delivery routes, and monitors fleets in real-time.
 
 `TypeScript` `AI/ML` `Real-Time`
@@ -258,10 +179,9 @@ AI-powered logistics platform that predicts shipment delays, optimizes delivery 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### ⚡ EnergySage
-
 AI-powered platform for monitoring, forecasting, and optimizing energy use for households and industries.
 
 `TypeScript` `AI` `Data Viz`
@@ -269,10 +189,9 @@ AI-powered platform for monitoring, forecasting, and optimizing energy use for h
 [![View Project](https://img.shields.io/badge/VIEW_PROJECT-10B981?style=for-the-badge)](https://github.com/princekumar-dev/EnergySage)
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🧮 GPA Calculator
-
 A sleek, web-based GPA Calculator built with Flask — real-time accuracy, responsive UI, and robust error handling.
 
 `JavaScript` `Flask` `Python`
@@ -282,10 +201,9 @@ A sleek, web-based GPA Calculator built with Flask — real-time accuracy, respo
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🎬 Netflix Homepage Clone
-
 A clean, visually striking static clone of the Netflix homepage with responsive design.
 
 `HTML` `CSS` `Responsive`
@@ -293,10 +211,9 @@ A clean, visually striking static clone of the Netflix homepage with responsive 
 [![View Project](https://img.shields.io/badge/VIEW_PROJECT-EF4444?style=for-the-badge)](https://github.com/princekumar-dev/Netfly---Homepage-Clone-Of-NETFLIX)
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🏛️ MSEC Connect
-
 Full-stack venue booking platform for seminar halls and auditoriums at MSEC.
 
 `JavaScript` `Full-Stack` `Booking`
