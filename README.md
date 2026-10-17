@@ -24,27 +24,29 @@
 
 <table>
   <tr>
-    <td width="40%" align="center" valign="top">
-      <img src="./assets/crest.svg" width="330" alt="Isometric illustration of Prince R at a desk — a monitor showing code, a keyboard, a mug, a small plant and an office chair" />
-    </td>
-    <td width="60%" valign="top">
-      <p><b>I'm Prince R</b> — a third-year B.Tech student in Artificial Intelligence &amp; Data Science.</p>
-      <p>
-        I build full-stack web apps end to end, and increasingly wire LLMs and real data
-        into things people can actually use. Most of what's below started as coursework
-        or a hackathon build and refused to stay a demo.
-      </p>
-      <h3>🎯 Currently</h3>
-      <ul>
-        <li>Studying <b>Machine Learning</b> &amp; <b>Data Structures &amp; Algorithms</b></li>
-        <li>Shipping <b>full-stack web applications</b> end to end</li>
-        <li>Wiring <b>LLMs &amp; agentic workflows</b> into practical products</li>
-        <li>Learning <b>system design</b> &amp; <b>cloud basics</b></li>
-      </ul>
+    <td width="40%" valign="top">
+      <div align="center">
+        <img src="./assets/crest.svg" width="330" alt="Isometric illustration of Prince R at a desk — a monitor showing code, a keyboard, a mug, a small plant and an office chair" />
+      </div>
       <h3>⚡ Off the clock</h3>
       <ul>
         <li>🔁 Repeat hackathon competitor &amp; open-source tinkerer</li>
         <li>💬 Happy to talk web dev, data, or whatever shipped this week in AI</li>
+      </ul>
+    </td>
+    <td width="60%" valign="top">
+      <p><b>I’m Prince R</b> — a third-year B.Tech student in Artificial Intelligence &amp; Data Science.</p>
+      <p>
+        I build full-stack web apps end to end, and increasingly wire LLMs and real data
+        into things people can actually use. Most of what’s below started as coursework
+        or a hackathon build and refused to stay a demo.
+      </p>
+      <h3>🎯 Currently</h3>
+      <ul>
+        <li>Studying <b>machine learning</b> alongside data structures and algorithms</li>
+        <li>Shipping <b>full-stack web apps</b> end to end</li>
+        <li>Wiring <b>LLMs</b> into products people actually use</li>
+        <li>Learning <b>system design</b> and cloud fundamentals</li>
       </ul>
     </td>
   </tr>
@@ -56,132 +58,43 @@
 
 ## 🛠️ Tech Stack
 
-*What I'm learning on — chosen for shipping, not for résumés.*
+*What I’m learning on — chosen for shipping, not for résumés.*
 
-<table>
-  <tr>
-    <td width="150" align="right" valign="middle"><sub><b>Languages</b></sub></td>
-    <td valign="middle">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="36" height="36" alt="TypeScript" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="36" height="36" alt="JavaScript" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="36" height="36" alt="Python" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="36" height="36" alt="Java" />
-    </td>
-  </tr>
-  <tr>
-    <td align="right" valign="middle"><sub><b>Frontend</b></sub></td>
-    <td valign="middle">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="36" height="36" alt="React" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="36" height="36" alt="Next.js" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="36" height="36" alt="Tailwind CSS" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="36" height="36" alt="HTML5" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="36" height="36" alt="CSS3" />
-    </td>
-  </tr>
-  <tr>
-    <td align="right" valign="middle"><sub><b>Backend &amp; Data</b></sub></td>
-    <td valign="middle">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="36" height="36" alt="Node.js" />
-      <img src="https://cdn.simpleicons.org/flask/9A948A" width="36" height="36" alt="Flask" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="36" height="36" alt="MongoDB" />
-    </td>
-  </tr>
-</table>
+<!-- centred rows, not a table: a full-width table whose icons stop at 40% is a
+     bordered box that is 60% empty — and GitHub's table border is what reads as
+     a white gutter in light mode. -->
+<div align="center">
+
+  <p><sub><b>Languages</b></sub><br/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="36" height="36" alt="TypeScript" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="36" height="36" alt="JavaScript" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="36" height="36" alt="Python" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="36" height="36" alt="Java" /></p>
+
+  <p><sub><b>Frontend</b></sub><br/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="36" height="36" alt="React" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="36" height="36" alt="Next.js" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="36" height="36" alt="Tailwind CSS" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="36" height="36" alt="HTML5" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="36" height="36" alt="CSS3" /></p>
+
+  <p><sub><b>Backend &amp; Data</b></sub><br/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="36" height="36" alt="Node.js" /> <img src="https://cdn.simpleicons.org/flask/9A948A" width="36" height="36" alt="Flask" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="36" height="36" alt="MongoDB" /></p>
+
+</div>
 
 <br/>
 
 <img src="./assets/divider.svg" width="100%" alt="" aria-hidden="true" />
 
+<!-- projects:begin -->
 ## 🚀 Featured Projects
 
-*Course projects that made it out of the classroom.*
+*Things I built for campus and beyond — five of them live.*
 
 <table>
   <tr>
-<td width="50%" valign="top">
-
-### 📚 Smart Classroom &amp; Scheduler
-
-*A clash-free timetable in seconds, not semesters.*
-
-An intelligent system that automates classroom and timetable management using constraint-based optimization.
-
-`TypeScript` `React` `Node.js`
-
-<a href="https://github.com/princekumar-dev/Smart_Classroom_And_TimeTable_Scheduler"><img src="https://img.shields.io/badge/Repository-CC785C?style=for-the-badge&logo=github&logoColor=white" alt="View Smart Classroom repository" /></a>
-
-</td>
-<td width="50%" valign="top">
-
-### 🚚 LogiPilot AI
-
-*Delays predicted before they land. Routes optimised while you watch.*
-
-AI-powered logistics platform that predicts shipment delays, optimises delivery routes, and monitors fleets in real time.
-
-`TypeScript` `Python` `AI/ML`
-
-<a href="https://github.com/princekumar-dev/Logipilot"><img src="https://img.shields.io/badge/Repository-CC785C?style=for-the-badge&logo=github&logoColor=white" alt="View LogiPilot repository" /></a>
-
-</td>
+    <td width="33%" align="center" valign="top"><a href="https://msec-campusserve.vercel.app"><img src="./assets/projects/campus-serve.svg" width="100%" alt="Campus Serve — campus maintenance, procurement and operations platform" /></a><sub><a href="https://github.com/princekumar-dev/Campus-servre--2">source ↗</a></sub></td>
+    <td width="33%" align="center" valign="top"><a href="https://msec-academics.vercel.app"><img src="./assets/projects/msec-academics.svg" width="100%" alt="MSEC Academics — academic management system for marksheets and reports" /></a><sub><a href="https://github.com/princekumar-dev/Academics--2">source ↗</a></sub></td>
+    <td width="33%" align="center" valign="top"><a href="https://msec-connect.vercel.app/"><img src="./assets/projects/msec-connect.svg" width="100%" alt="MSEC Connect — venue booking for seminar halls and auditoriums" /></a><sub><a href="https://github.com/princekumar-dev/Connect">source ↗</a></sub></td>
   </tr>
   <tr>
-<td width="50%" valign="top">
-
-### ⚡ EnergySage
-
-*See where the power goes — then tell it where to go.*
-
-AI-powered platform for monitoring, forecasting, and optimising energy use across households and industry.
-
-`TypeScript` `React` `AI`
-
-<a href="https://github.com/princekumar-dev/EnergySage"><img src="https://img.shields.io/badge/Repository-CC785C?style=for-the-badge&logo=github&logoColor=white" alt="View EnergySage repository" /></a>
-
-</td>
-<td width="50%" valign="top">
-
-### 🏛️ MSEC Connect
-
-*Two clicks to a hall. Zero chasing permissions.*
-
-Full-stack venue booking platform for seminar halls and auditoriums at MSEC.
-
-`JavaScript` `Node.js` `MongoDB`
-
-<a href="https://github.com/princekumar-dev/Connect"><img src="https://img.shields.io/badge/Repository-CC785C?style=for-the-badge&logo=github&logoColor=white" alt="View MSEC Connect repository" /></a>
-
-</td>
-  </tr>
-  <tr>
-<td width="50%" valign="top">
-
-### 🧮 GPA Calculator
-
-*Your GPA, recalculated before you finish typing.*
-
-A sleek, web-based GPA calculator built with Flask — real-time accuracy, responsive UI, and robust error handling.
-
-`Python` `Flask` `JavaScript`
-
-<a href="https://github.com/princekumar-dev/GPA---Calculator-"><img src="https://img.shields.io/badge/Repository-CC785C?style=for-the-badge&logo=github&logoColor=white" alt="View GPA Calculator repository" /></a>
-
-</td>
-<td width="50%" valign="top">
-
-### 🎬 Netflix Homepage Clone
-
-*The screen everyone knows, rebuilt pixel by pixel.*
-
-A clean, visually striking static clone of the Netflix homepage with responsive design.
-
-`HTML5` `CSS3` `JavaScript`
-
-<a href="https://github.com/princekumar-dev/Netfly---Homepage-Clone-Of-NETFLIX"><img src="https://img.shields.io/badge/Repository-CC785C?style=for-the-badge&logo=github&logoColor=white" alt="View Netflix clone repository" /></a>
-
-</td>
+    <td width="33%" align="center" valign="top"><a href="https://msec-notify.vercel.app"><img src="./assets/projects/msec-notify.svg" width="100%" alt="MSEC Notify — leave and late-attendance parent alert system" /></a><sub><a href="https://github.com/princekumar-dev/MSEC-Notify">source ↗</a></sub></td>
+    <td width="33%" align="center" valign="top"><a href="https://github.com/princekumar-dev/Logipilot"><img src="./assets/projects/logipilot.svg" width="100%" alt="LogiPilot — AI logistics platform for delay prediction and route optimisation" /></a><sub><a href="https://github.com/princekumar-dev/Logipilot">source ↗</a></sub></td>
+    <td width="33%" align="center" valign="top"><a href="https://busy-bot-eight.vercel.app"><img src="./assets/projects/busybot.svg" width="100%" alt="BusyBot — AI auto-reply assistant" /></a><sub><a href="https://github.com/princekumar-dev/Busy_Bot">source ↗</a></sub></td>
   </tr>
 </table>
+<!-- projects:end -->
 
 <br/>
 
@@ -189,16 +102,13 @@ A clean, visually striking static clone of the Netflix homepage with responsive 
 
 ## 📊 GitHub Analytics
 
-*The graph doesn't lie.*
+*The graph doesn’t lie.*
 
 <div align="center">
 
-  <table>
-    <tr>
-      <td width="50%"><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=princekumar-dev&theme=github_dark" width="100%" alt="GitHub stats" /></td>
-      <td width="50%"><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=princekumar-dev&theme=github_dark" width="100%" alt="Top languages" /></td>
-    </tr>
-  </table>
+  <!-- two cards on one line rather than a table: GitHub's table style adds a
+       bordered cell around them, which in light mode reads as white gutters. -->
+  <p><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=princekumar-dev&theme=github_dark" width="48%" alt="GitHub stats" /> <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=princekumar-dev&theme=github_dark" width="48%" alt="Top languages" /></p>
 
   <br/>
 
@@ -223,11 +133,13 @@ A clean, visually striking static clone of the Netflix homepage with responsive 
 
 <img src="./assets/divider.svg" width="100%" alt="" aria-hidden="true" />
 
-## 📫 Let's connect
+## 📫 Let’s Connect
 
 *Open to internships, collaborations, and strong opinions about tabs vs. spaces.*
 
 <div align="center">
+
+  <p><b>Write to me</b> — <a href="mailto:prince55833kumar@gmail.com">prince55833kumar@gmail.com</a></p>
 
   <p>
     <a href="https://github.com/princekumar-dev"><img src="https://img.shields.io/badge/GitHub-CC785C?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
@@ -236,6 +148,8 @@ A clean, visually striking static clone of the Netflix homepage with responsive 
     <a href="mailto:prince55833kumar@gmail.com"><img src="https://img.shields.io/badge/Email-2B2822?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
     <a href="https://www.buymeacoffee.com/princekumar-dev"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-2B2822?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Buy Me A Coffee" /></a>
   </p>
+
+  <p>Open to <b>internships</b> and <b>collaborations</b> — anything that puts data or LLMs to real use. If that’s your project, say hello.</p>
 
   <br/>
 
