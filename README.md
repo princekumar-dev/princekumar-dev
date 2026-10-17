@@ -1,15 +1,15 @@
 <div align="center">
 
-  <img src="./assets/header.svg" width="100%" alt="Prince R — Full-Stack Web Developer and AI Enthusiast" />
+  <img src="./assets/header.svg" width="100%" alt="Prince R — third-year B.Tech student in Artificial Intelligence and Data Science" />
 
   <br/><br/>
 
   <p>
-    <a href="https://my-portfolio-077.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-5E6AD2?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-    <a href="https://www.linkedin.com/in/prince-r-b9685130b/"><img src="https://img.shields.io/badge/LinkedIn-23252A?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    <a href="mailto:prince55833kumar@gmail.com"><img src="https://img.shields.io/badge/Email-23252A?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-    <a href="https://github.com/sponsors/princekumar-dev"><img src="https://img.shields.io/badge/Sponsor-23252A?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor" /></a>
-    <a href="https://www.buymeacoffee.com/princekumar-dev"><img src="https://img.shields.io/badge/Coffee-23252A?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Buy Me A Coffee" /></a>
+    <a href="https://my-portfolio-077.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-CC785C?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+    <a href="https://www.linkedin.com/in/prince-r-b9685130b/"><img src="https://img.shields.io/badge/LinkedIn-2B2822?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="mailto:prince55833kumar@gmail.com"><img src="https://img.shields.io/badge/Email-2B2822?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+    <a href="https://github.com/sponsors/princekumar-dev"><img src="https://img.shields.io/badge/Sponsor-2B2822?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor" /></a>
+    <a href="https://www.buymeacoffee.com/princekumar-dev"><img src="https://img.shields.io/badge/Coffee-2B2822?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Buy Me A Coffee" /></a>
   </p>
 
 </div>
@@ -20,33 +20,31 @@
 
 ## 🧑 About
 
+*Third year, still curious, already shipping.*
+
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <img src="./assets/crest.svg" width="185" alt="Isometric illustration of Prince R at a developer workstation" align="left" />
-      <p>
-        <b>I'm Prince R</b> — a Computer Science student and full-stack developer who
-        believes software should load fast, read clearly, and be hard to break.
-      </p>
-      <p>
-        I move comfortably between the browser and the backend: React and Next.js on the
-        front, Node and Python services behind them, and increasingly LLM-powered workflows
-        wired into real products rather than demos.
-      </p>
-      <br clear="all" />
+    <td width="40%" align="center" valign="top">
+      <img src="./assets/crest.svg" width="330" alt="Isometric illustration of Prince R at a desk — a monitor showing code, a keyboard, a mug, a small plant and an office chair" />
     </td>
-    <td width="50%" valign="top">
+    <td width="60%" valign="top">
+      <p><b>I'm Prince R</b> — a third-year B.Tech student in Artificial Intelligence &amp; Data Science.</p>
+      <p>
+        I build full-stack web apps end to end, and increasingly wire LLMs and real data
+        into things people can actually use. Most of what's below started as coursework
+        or a hackathon build and refused to stay a demo.
+      </p>
       <h3>🎯 Currently</h3>
       <ul>
+        <li>Studying <b>Machine Learning</b> &amp; <b>Data Structures &amp; Algorithms</b></li>
         <li>Shipping <b>full-stack web applications</b> end to end</li>
-        <li>Studying <b>System Design</b> &amp; <b>Cloud Architecture</b></li>
         <li>Wiring <b>LLMs &amp; agentic workflows</b> into practical products</li>
-        <li>Optimising for speed, accessibility, and stellar UX</li>
+        <li>Learning <b>system design</b> &amp; <b>cloud basics</b></li>
       </ul>
       <h3>⚡ Off the clock</h3>
       <ul>
         <li>🔁 Repeat hackathon competitor &amp; open-source tinkerer</li>
-        <li>💬 Happy to talk web dev, backend engineering, or new AI tools</li>
+        <li>💬 Happy to talk web dev, data, or whatever shipped this week in AI</li>
       </ul>
     </td>
   </tr>
@@ -58,59 +56,34 @@
 
 ## 🛠️ Tech Stack
 
-*Boring, well-documented tools first — the interesting ones have to earn their place.*
+*What I'm learning on — chosen for shipping, not for résumés.*
 
 <table>
   <tr>
-    <td align="center" width="118">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="38" height="38" alt="TypeScript" />
-      <br/><sub><b>TypeScript</b></sub>
-    </td>
-    <td align="center" width="118">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="38" height="38" alt="JavaScript" />
-      <br/><sub><b>JavaScript</b></sub>
-    </td>
-    <td align="center" width="118">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="38" height="38" alt="Python" />
-      <br/><sub><b>Python</b></sub>
-    </td>
-    <td align="center" width="118">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="38" height="38" alt="Java" />
-      <br/><sub><b>Java</b></sub>
-    </td>
-    <td align="center" width="118">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="38" height="38" alt="React" />
-      <br/><sub><b>React</b></sub>
-    </td>
-    <td align="center" width="118">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="38" height="38" alt="Next.js" />
-      <br/><sub><b>Next.js</b></sub>
+    <td width="150" align="right" valign="middle"><sub><b>Languages</b></sub></td>
+    <td valign="middle">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="36" height="36" alt="TypeScript" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="36" height="36" alt="JavaScript" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="36" height="36" alt="Python" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="36" height="36" alt="Java" />
     </td>
   </tr>
   <tr>
-    <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="38" height="38" alt="Node.js" />
-      <br/><sub><b>Node.js</b></sub>
+    <td align="right" valign="middle"><sub><b>Frontend</b></sub></td>
+    <td valign="middle">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="36" height="36" alt="React" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="36" height="36" alt="Next.js" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="36" height="36" alt="Tailwind CSS" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="36" height="36" alt="HTML5" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="36" height="36" alt="CSS3" />
     </td>
-    <td align="center">
-      <img src="https://cdn.simpleicons.org/flask/D0D6E0" width="38" height="38" alt="Flask" />
-      <br/><sub><b>Flask</b></sub>
-    </td>
-    <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="38" height="38" alt="MongoDB" />
-      <br/><sub><b>MongoDB</b></sub>
-    </td>
-    <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="38" height="38" alt="Tailwind CSS" />
-      <br/><sub><b>Tailwind</b></sub>
-    </td>
-    <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="38" height="38" alt="HTML5" />
-      <br/><sub><b>HTML5</b></sub>
-    </td>
-    <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="38" height="38" alt="CSS3" />
-      <br/><sub><b>CSS3</b></sub>
+  </tr>
+  <tr>
+    <td align="right" valign="middle"><sub><b>Backend &amp; Data</b></sub></td>
+    <td valign="middle">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="36" height="36" alt="Node.js" />
+      <img src="https://cdn.simpleicons.org/flask/9A948A" width="36" height="36" alt="Flask" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="36" height="36" alt="MongoDB" />
     </td>
   </tr>
 </table>
@@ -121,7 +94,7 @@
 
 ## 🚀 Featured Projects
 
-*Six builds. Six real problems. No toy apps.*
+*Course projects that made it out of the classroom.*
 
 <table>
   <tr>
@@ -135,7 +108,7 @@ An intelligent system that automates classroom and timetable management using co
 
 `TypeScript` `React` `Node.js`
 
-<a href="https://github.com/princekumar-dev/Smart_Classroom_And_TimeTable_Scheduler"><img src="https://img.shields.io/badge/Repository-5E6AD2?style=for-the-badge&logo=github&logoColor=white" alt="View Smart Classroom repository" /></a>
+<a href="https://github.com/princekumar-dev/Smart_Classroom_And_TimeTable_Scheduler"><img src="https://img.shields.io/badge/Repository-CC785C?style=for-the-badge&logo=github&logoColor=white" alt="View Smart Classroom repository" /></a>
 
 </td>
 <td width="50%" valign="top">
@@ -148,7 +121,7 @@ AI-powered logistics platform that predicts shipment delays, optimises delivery 
 
 `TypeScript` `Python` `AI/ML`
 
-<a href="https://github.com/princekumar-dev/Logipilot"><img src="https://img.shields.io/badge/Repository-5E6AD2?style=for-the-badge&logo=github&logoColor=white" alt="View LogiPilot repository" /></a>
+<a href="https://github.com/princekumar-dev/Logipilot"><img src="https://img.shields.io/badge/Repository-CC785C?style=for-the-badge&logo=github&logoColor=white" alt="View LogiPilot repository" /></a>
 
 </td>
   </tr>
@@ -163,7 +136,7 @@ AI-powered platform for monitoring, forecasting, and optimising energy use acros
 
 `TypeScript` `React` `AI`
 
-<a href="https://github.com/princekumar-dev/EnergySage"><img src="https://img.shields.io/badge/Repository-5E6AD2?style=for-the-badge&logo=github&logoColor=white" alt="View EnergySage repository" /></a>
+<a href="https://github.com/princekumar-dev/EnergySage"><img src="https://img.shields.io/badge/Repository-CC785C?style=for-the-badge&logo=github&logoColor=white" alt="View EnergySage repository" /></a>
 
 </td>
 <td width="50%" valign="top">
@@ -176,7 +149,7 @@ Full-stack venue booking platform for seminar halls and auditoriums at MSEC.
 
 `JavaScript` `Node.js` `MongoDB`
 
-<a href="https://github.com/princekumar-dev/Connect"><img src="https://img.shields.io/badge/Repository-5E6AD2?style=for-the-badge&logo=github&logoColor=white" alt="View MSEC Connect repository" /></a>
+<a href="https://github.com/princekumar-dev/Connect"><img src="https://img.shields.io/badge/Repository-CC785C?style=for-the-badge&logo=github&logoColor=white" alt="View MSEC Connect repository" /></a>
 
 </td>
   </tr>
@@ -191,7 +164,7 @@ A sleek, web-based GPA calculator built with Flask — real-time accuracy, respo
 
 `Python` `Flask` `JavaScript`
 
-<a href="https://github.com/princekumar-dev/GPA---Calculator-"><img src="https://img.shields.io/badge/Repository-5E6AD2?style=for-the-badge&logo=github&logoColor=white" alt="View GPA Calculator repository" /></a>
+<a href="https://github.com/princekumar-dev/GPA---Calculator-"><img src="https://img.shields.io/badge/Repository-CC785C?style=for-the-badge&logo=github&logoColor=white" alt="View GPA Calculator repository" /></a>
 
 </td>
 <td width="50%" valign="top">
@@ -204,7 +177,7 @@ A clean, visually striking static clone of the Netflix homepage with responsive 
 
 `HTML5` `CSS3` `JavaScript`
 
-<a href="https://github.com/princekumar-dev/Netfly---Homepage-Clone-Of-NETFLIX"><img src="https://img.shields.io/badge/Repository-5E6AD2?style=for-the-badge&logo=github&logoColor=white" alt="View Netflix clone repository" /></a>
+<a href="https://github.com/princekumar-dev/Netfly---Homepage-Clone-Of-NETFLIX"><img src="https://img.shields.io/badge/Repository-CC785C?style=for-the-badge&logo=github&logoColor=white" alt="View Netflix clone repository" /></a>
 
 </td>
   </tr>
@@ -238,10 +211,10 @@ A clean, visually striking static clone of the Netflix homepage with responsive 
   <br/><br/>
 
   <p>
-    <img src="https://komarev.com/ghpvc/?username=princekumar-dev&color=23252A&style=flat-square&label=PROFILE+VIEWS" alt="Profile views" />
-    <img src="https://img.shields.io/github/followers/princekumar-dev?color=23252A&style=flat-square&label=FOLLOWERS" alt="Followers" />
-    <img src="https://img.shields.io/github/stars/princekumar-dev?color=23252A&style=flat-square&label=STARS" alt="Stars" />
-    <a href="https://github.com/princekumar-dev?tab=followers"><img src="https://img.shields.io/badge/🟢_OPEN_TO_WORK-27A644?style=flat-square&labelColor=010102" alt="Open to work" /></a>
+    <img src="https://komarev.com/ghpvc/?username=princekumar-dev&color=2B2822&style=flat-square&label=PROFILE+VIEWS" alt="Profile views" />
+    <img src="https://img.shields.io/github/followers/princekumar-dev?color=2B2822&style=flat-square&label=FOLLOWERS" alt="Followers" />
+    <img src="https://img.shields.io/github/stars/princekumar-dev?color=2B2822&style=flat-square&label=STARS" alt="Stars" />
+    <a href="https://github.com/princekumar-dev?tab=followers"><img src="https://img.shields.io/badge/🟢_OPEN_TO_WORK-5DB872?style=flat-square&labelColor=181715" alt="Open to work" /></a>
   </p>
 
 </div>
@@ -257,18 +230,14 @@ A clean, visually striking static clone of the Netflix homepage with responsive 
 <div align="center">
 
   <p>
-    <a href="https://github.com/princekumar-dev"><img src="https://img.shields.io/badge/GitHub-5E6AD2?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-    <a href="https://www.linkedin.com/in/prince-r-b9685130b/"><img src="https://img.shields.io/badge/LinkedIn-23252A?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    <a href="https://instagram.com/prince_r_94"><img src="https://img.shields.io/badge/Instagram-23252A?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
-    <a href="mailto:prince55833kumar@gmail.com"><img src="https://img.shields.io/badge/Email-23252A?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-    <a href="https://www.buymeacoffee.com/princekumar-dev"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-23252A?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Buy Me A Coffee" /></a>
+    <a href="https://github.com/princekumar-dev"><img src="https://img.shields.io/badge/GitHub-CC785C?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+    <a href="https://www.linkedin.com/in/prince-r-b9685130b/"><img src="https://img.shields.io/badge/LinkedIn-2B2822?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="https://instagram.com/prince_r_94"><img src="https://img.shields.io/badge/Instagram-2B2822?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+    <a href="mailto:prince55833kumar@gmail.com"><img src="https://img.shields.io/badge/Email-2B2822?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+    <a href="https://www.buymeacoffee.com/princekumar-dev"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-2B2822?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Buy Me A Coffee" /></a>
   </p>
 
   <br/>
-
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Daily motivation quote" />
-
-  <br/><br/>
 
   <sub>Built with care by <a href="https://github.com/princekumar-dev"><b>Prince R</b></a> · Thanks for visiting ⭐</sub>
 
