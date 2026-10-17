@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="28" viewBox="0 0 1200 28" fill="none" role="presentation" aria-hidden="true">
+  <defs>
+    <linearGradient id="dRule" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0"   stop-color="#23252A" stop-opacity="0"/>
+      <stop offset=".22" stop-color="#23252A" stop-opacity="1"/>
+      <stop offset=".5"  stop-color="#3A3D45" stop-opacity="1"/>
+      <stop offset=".78" stop-color="#23252A" stop-opacity="1"/>
+      <stop offset="1"   stop-color="#23252A" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="dGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                    gradientTransform="translate(600 14) scale(88 9)">
+      <stop offset="0"   stop-color="#5E6AD2" stop-opacity=".6"/>
+      <stop offset="1"   stop-color="#5E6AD2" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="dDiamond" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#828FFF"/>
+      <stop offset="1" stop-color="#5E6AD2"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="13.4" width="1200" height="1.2" fill="url(#dRule)">
+    <animate attributeName="opacity" values=".55;1;.55" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <ellipse cx="600" cy="14" rx="88" ry="9" fill="url(#dGlow)"/>
+
+  <g transform="translate(600 14)">
+    <rect x="-5" y="-5" width="10" height="10" rx="1.5" fill="url(#dDiamond)" transform="rotate(45)">
+      <animateTransform attributeName="transform" type="rotate"
+                        values="45;405" dur="16s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
