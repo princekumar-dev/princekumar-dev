@@ -44,6 +44,14 @@ const PILL = "#F0EBE1";
 const DISPLAY = "Newsreader,'Source Serif 4',Palatino,Georgia,serif";
 const BODY = "Inter,ui-sans-serif,system-ui,sans-serif";
 
+/* The MSEC coat of arms, embedded. GitHub proxies README images through camo
+   and sanitizes the markup, so nothing the card references can live on a remote
+   host — the logo has to travel inside the file. Base64 buys ~37% on a 5.4 KB
+   PNG, which is cheaper than shipping six copies of a larger asset. */
+const CREST =
+  "data:image/png;base64," +
+  readFileSync(join(HERE, "mseclogo.png")).toString("base64");
+
 /* ---- monoline marks, drawn on a 24 grid ---- */
 const MARKS = {
   building:
@@ -57,6 +65,10 @@ const MARKS = {
   send: '<path d="M20.7 3.7 3.7 10.3l7 2.9 2.9 7Z"/><path d="m10.7 13.2 5.5-5.5"/>',
   bot:
     '<rect x="4.3" y="8.7" width="15.4" height="11.2" rx="3.2"/><path d="M12 5.6v3.1"/><circle cx="12" cy="4.2" r="1.5"/><circle cx="9.4" cy="13.7" r="1.25" fill="currentColor" stroke="none"/><circle cx="14.6" cy="13.7" r="1.25" fill="currentColor" stroke="none"/><path d="M9.9 17.2h4.2"/>',
+  /* shield carrying an LP ligature — the mark LogiPilot ships with, rather
+     than the generic paper plane this card used to stand in for it */
+  shield:
+    '<path d="M12 2.9 4.6 5.7v6.1c0 4.4 3.1 8.1 7.4 9.8 4.3-1.7 7.4-5.4 7.4-9.8V5.7L12 2.9Z"/><path d="M8.8 8.7v6.4h3.1"/><path d="M13.7 15.1V8.7h2.1a2.25 2.25 0 0 1 0 4.5h-2.1"/>',
 };
 
 /* greedy wrap — SVG has no text wrapping, so lines are authored */
@@ -92,17 +104,47 @@ const pill = (x, y, label, { bg, fg, size = 10 }) => {
 function card(p, i) {
   const a = p.accent;
   const parts = [];
+  /* app-icon tiles need a per-card gradient, collected here and emitted into
+     <defs> once the body is known */
+  const grads = [];
 
   parts.push(
     `<rect x="${CX}" y="${CY}" width="${CW}" height="${CH}" rx="15" fill="${CARD}" filter="url(#sh)"/>`,
     `<rect x="${CX + .5}" y="${CY + .5}" width="${CW - 1}" height="${CH - 1}" rx="14.5" fill="none" stroke="${EDGE}"/>`,
   );
 
-  /* mark on its own tinted chip */
-  parts.push(
-    `<rect x="${L}" y="20" width="34" height="34" rx="10" fill="${a}" fill-opacity=".10"/>`,
-    `<g transform="translate(${L + 7} 27) scale(.8333)" fill="none" stroke="${a}" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" color="${a}">${MARKS[p.mark]}</g>`,
-  );
+  /* mark on its own chip. Three treatments, and which one a card gets is part
+     of how the project presents itself:
+     - the MSEC crest on white, for the college's own products
+     - an app-icon tile — a filled gradient square with the glyph reversed out —
+       for the two that ship a real app icon
+     - the tinted monoline glyph, the default */
+  if (p.logo) {
+    parts.push(
+      `<rect x="${L}" y="20" width="34" height="34" rx="10" fill="#FFFFFF" stroke="${EDGE}"/>`,
+      `<image href="${CREST}" x="${L + 3.5}" y="21.5" width="27" height="31"/>`,
+    );
+  } else if (p.icon) {
+    const gid = `tile-${p.slug}`;
+    grads.push(
+      `<linearGradient id="${gid}" x1="0" y1="0" x2="1" y2="1">` +
+        `<stop offset="0" stop-color="${p.icon.from}"/>` +
+        `<stop offset="1" stop-color="${p.icon.to}"/>` +
+        `</linearGradient>`,
+    );
+    /* scale 1.0, not the 0.8333 the monoline glyphs use: an app icon's mark
+       sits close to its tile edge, and at chip size the extra air reads as a
+       mark that has shrunk rather than one that belongs to a smaller grid */
+    parts.push(
+      `<rect x="${L}" y="20" width="34" height="34" rx="10" fill="url(#${gid})"/>`,
+      `<g transform="translate(${L + 5} 25) scale(1)" fill="none" stroke="${p.icon.mark}" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" color="${p.icon.mark}">${MARKS[p.mark]}</g>`,
+    );
+  } else {
+    parts.push(
+      `<rect x="${L}" y="20" width="34" height="34" rx="10" fill="${a}" fill-opacity=".10"/>`,
+      `<g transform="translate(${L + 7} 27) scale(.8333)" fill="none" stroke="${a}" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" color="${a}">${MARKS[p.mark]}</g>`,
+    );
+  }
 
   /* name (display serif) + kicker (accent) + index */
   parts.push(
@@ -140,6 +182,7 @@ function card(p, i) {
     <filter id="sh" x="-25%" y="-25%" width="150%" height="165%">
       <feDropShadow dx="0" dy="3" stdDeviation="4.5" flood-color="#5A5044" flood-opacity=".17"/>
     </filter>
+${grads.map((g) => `    ${g}`).join("\n")}
   </defs>
   ${body}
 </svg>
@@ -155,11 +198,17 @@ PROJECTS.forEach((p, i) => {
 console.log(`projects: ${PROJECTS.length} cards, ${Math.round(bytes / 1024)} KB total`);
 
 /* ---- splice the matching section into README.md ---- */
-/* no <br/>: the card is already 100% of the cell, so the <sub> wraps onto its
-   own line by itself — and skipping it drops a whole line-box of air that was
-   pushing the source link visually closer to the NEXT row than to this card. */
+/* No <table>. GitHub's stylesheet gives every td a 1px border, and nothing in
+   the markup can override it — a table here means a ruled grid drawn around
+   the cards no matter what they look like. Centred inline images wrap the same
+   way and bring no chrome of their own.
+   It also simplifies the link: the status pill inside each card already says
+   whether it goes to a live site or a repository, so the separate "source"
+   caption underneath was saying the same thing twice. */
 const cell = (p) =>
-  `<td width="33%" align="center" valign="top"><a href="${p.live}"><img src="./assets/projects/${p.slug}.svg" width="100%" alt="${esc(p.alt)}" /></a><sub><a href="${p.repo}">source ↗</a></sub></td>`;
+  `<a href="${p.live}"><img src="./assets/projects/${p.slug}.svg" width="32%" alt="${esc(p.alt)}" /></a>`;
+
+const row = (idx) => idx.map((i) => cell(PROJECTS[i])).join(" ");
 
 const BEGIN = "<!-- projects:begin -->";
 const END = "<!-- projects:end -->";
@@ -167,10 +216,10 @@ const section =
   `${BEGIN}\n` +
   `## 🚀 Featured Projects\n\n` +
   `*Things I built for campus and beyond — five of them live.*\n\n` +
-  `<table>\n` +
-  `  <tr>\n    ${[0, 1, 2].map((i) => cell(PROJECTS[i])).join("\n    ")}\n  </tr>\n` +
-  `  <tr>\n    ${[3, 4, 5].map((i) => cell(PROJECTS[i])).join("\n    ")}\n  </tr>\n` +
-  `</table>\n` +
+  `<div align="center">\n\n` +
+  `  ${row([0, 1, 2])}\n\n` +
+  `  ${row([3, 4, 5])}\n\n` +
+  `</div>\n` +
   `${END}`;
 
 const README = join(HERE, "..", "README.md");

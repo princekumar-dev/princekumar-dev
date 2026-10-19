@@ -33,7 +33,7 @@
   </picture>
 </div>
 
-<img src="./assets/about.svg" width="100%" alt="I’m Prince R — third-year B.Tech in Artificial Intelligence &amp;amp;amp;amp;amp;amp; Data Science. Off the clock: hackathons, open source, and whatever shipped this week in AI. Currently: machine learning, full-stack web apps, LLMs and system design." />
+<img src="./assets/about.svg" width="100%" alt="I’m Prince R — third-year B.Tech, Artificial Intelligence &amp; Data Science. I build full-stack web apps end to end, and increasingly wire LLMs and real data into things people can actually use. Most of what’s below started as coursework or a hackathon build — and refused to stay a demo." />
 <!-- about:end -->
 
 <br/>

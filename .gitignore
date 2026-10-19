@@ -1,0 +1,20 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.bak
+
+# Temporary build captures & test screenshots
+build/*.png
+build/*.html
+!build/page_dark.html
+!build/page_light.html
+!build/banner.html
+
+# Scratch scripts
+build/test_*.mjs
+build/probe*.mjs
+build/peek.mjs
+build/dump.mjs
+build/find_mouse.mjs
+build/compare_options.mjs
+build/debug_setup.mjs

@@ -27,8 +27,11 @@ for (const [a, b, name] of [
   (open === close ? ok : bad)(`${name}: ${open} open / ${close} close`);
 }
 
-/* asset references */
-const refs = [...md.matchAll(/(?:src|href)="\.\/([^"]+)"/g)].map((m) => m[1]);
+/* asset references — srcset too: <picture> names the dark variant there */
+const refs = [
+  ...md.matchAll(/(?:src|href)="\.\/([^"]+)"/g),
+  ...md.matchAll(/srcset="\.\/([^"]+)"/g),
+].map((m) => m[1]);
 const uniq = [...new Set(refs)];
 for (const r of uniq) (existsSync(join(root, r)) ? ok : bad)(`asset ${r} (${refs.filter((x) => x === r).length} refs)`);
 
@@ -62,12 +65,21 @@ const OLD = [
 /* Claude, warm-dark variant — one chromatic accent, coral #cc785c. */
 const WANT = ["CC785C", "181715", "2B2822", "5DB872", "9A948A", "E5A183"];
 
-const files = ["README.md", "assets/header.svg", "assets/divider.svg", "assets/crest.svg"];
+const files = [
+  "README.md",
+  "assets/header.svg",
+  "assets/header.light.svg",
+  "assets/divider.svg",
+  "assets/crest.svg",
+  "assets/crest.light.svg",
+  "assets/stack.svg",
+  "assets/analytics.svg",
+];
 for (const f of files) {
   const s = readFileSync(join(root, f), "utf8").toUpperCase();
   const oldHits = OLD.filter((c) => s.includes(c.toUpperCase()));
   const want = WANT.filter((c) => s.includes(c.toUpperCase()));
-  if (f === "assets/crest.svg") {
+  if (f.startsWith("assets/crest")) {
     // the crest is fully token-driven, but it must still shed the Linear accent
     const retired = ["5E6AD2", "828FFF"].filter((c) => s.includes(c));
     (retired.length === 0 ? ok : bad)(
